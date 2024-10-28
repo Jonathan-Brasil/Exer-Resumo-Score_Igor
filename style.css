@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* Primary */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%); /*Background*/
+    --Light-royal-blue: hsl(241, 81%, 54%); /*Background*/
+    --Violet-blue: hsl(256, 72%, 46%, 1); /*Circles*/
+    --Persian-blue: hsl(241, 72%, 46%, 0); /*Circles*/
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Hanken Grotesk", sans-serif;
+    
+}
+
+body {
+    display: inline-flex;
+}
+
+/* Primeiro Div*/
+
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    width: 600px;
+    height: 370px;
+}
+
+
+.container-1{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color: var(--Light-royal-blue);
+    border-radius: 20px;
+    box-shadow: var(--Dark-gray-blue) 0px -50px 36px -28px inset;
+    text-align: center;
+    padding: 10px;
+}
+
+.yr{
+    color: var(--Light-lavender);
+}
+
+.circle {
+    width: 150px; /* Largura do círculo */
+    height: 150px; /* Altura do círculo */
+    border-radius: 50%; /* Faz o elemento ser um círculo */
+    background-color: var(--Light-royal-blue); /* Cor de fundo do círculo */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do círculo */
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.numero{
+    color: var(--White);
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.numero-2 {
+    color: var(--Light-lavender); /* Cor do texto */
+}
+
+h2{
+    color: var(--White);
+    font-size: 24px;
+    padding: 10px;
+}
+p{
+    color: var(--Light-lavender);
+}
+
+/*Segunda Div*/
+
+.container-2{
+    display: inline-block;
+    background-color: var(--White);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 250px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.summary{
+    color: var(--Dark-gray-blue);
+    font-size: 20px;
+}
+
+
+.reaction{
+    color: var(--Light-red);
+}
+.memory{
+    color: var(--Orangey-yellow);
+}
+.verbal{
+    color: var(--Green-teal);
+}
+.visual{
+    color: var(--Cobalt-blue);
+}
+
+.principal-reaction{
+    background-color: transparent var(--Light-red);
+}
+
+strong{
+    color: var(--Dark-gray-blue);
+}
+
+
+section{
+    color: var(--Light-lavender);
+    text-align: end;
+}
+
+span{
+    color: var(--Light-lavender);
+}
+
+
+button{
+    background-color: var(--Dark-gray-blue);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: var(--White);
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: var(--Light-royal-blue);
+}
